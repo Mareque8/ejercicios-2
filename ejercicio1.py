@@ -17,10 +17,8 @@ class punto():
             print("{} se encuentra en el cuarto cuadrante".format(self))
         else:
             print("{} se encuentra en el origen".format(self))
-    def vector(self):
-        #NO SE
-        pass
-    
+    def vector(self,p):
+          print("El vector entre {} y {} es ({}, {})".format(self, p, p.x - self.x, p.y - self.y) )    
 class rectangulo:
     def _init_(self,pinicial=punto(),pfinal=punto()):
         self.pinicial = pinicial
