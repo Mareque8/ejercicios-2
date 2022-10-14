@@ -21,5 +21,32 @@ class punto():
         #NO SE
         pass
     
-  
+class rectangulo:
+    def _init_(self,pinicial=punto(),pfinal=punto()):
+        self.pinicial = pinicial
+        self.pfinal = pfinal
+    def base(self):
+        self.base = abs(self.pfinal.x-self.pinicial.x)
+        print("{}  es la base  ".format(self.base))
+    def altura(self):
+        self.altura = abs(self.pfinal.y-self.pinicial.y)
+        print("{} es la altura ".format(self.altura))
+    def area(self):
+        self.base = abs(self.pfinal.x-self.pinicial.x)
+        self.altura = abs(self.pfinal.y-self.pinicial.y)
+        self.area = abs(self.base*self.altura)
+        print("{} es el area ".format(self.area))
+        
+
+A=punto(2, 3)
+B=punto(5,5)
+C=punto(-3, -1)
+D=punto(0,0)
+
+
+
+
+
+
+
 
