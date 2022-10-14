@@ -1,5 +1,5 @@
 import math
-from tkinter import Y 
+
 class punto():
     def _init_(self, x=0,y=0):
         self.x= x
@@ -38,10 +38,10 @@ class rectangulo:
         print("{} es el area ".format(self.area))
         
 
-A=punto(2, 3)
-B=punto(5,5)
-C=punto(-3, -1)
-D=punto(0,0)
+A = punto(2, 3)
+B = punto(5,5)
+C = punto(-3, -1)
+D = punto(0,0)
 
 A.cuadrante
 B.cuadrante
