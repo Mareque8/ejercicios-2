@@ -1,6 +1,6 @@
 import math
 
-class punto():
+class punto:
     def _init_(self,x=0,y=0):
         self.x= x
         self.y= y
@@ -36,17 +36,17 @@ class rectangulo:
         print("{} es el area ".format(self.area))
         
 
-A = punto(2, 3)
-B = punto(5,5)
-C = punto(-3, -1)
-D = punto(0,0)
+a = punto(2, 3)
+b = punto(5,5)
+c = punto(-3, -1)
+d = punto(0,0)
 
-A.cuadrante
-B.cuadrante
-D.cuadrante
-A.vector(B)
-B.vector(A)
-R = rectangulo(A,B)
+a.cuadrante
+b.cuadrante
+d.cuadrante
+a.vector(b)
+b.vector(a)
+R = rectangulo(a,b)
 R.base()
 R.altura()
 R.area()

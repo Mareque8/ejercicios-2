@@ -1,4 +1,4 @@
-from email.mime import image
+
 lista = [1,3,4,7,99,3,1,5,6,7,2,9,2,5,99,-1,-2,9,3,44,5]
 
 def modificar(l):
